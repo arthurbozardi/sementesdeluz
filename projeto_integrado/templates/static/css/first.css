@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    background: #020e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: flex-start;
+    color: #F49F1C;
+    font-size: 30px;
+}
+
+.menu{
+    margin-bottom: 1em;
+    background-color: #3a556e;
+    color: white;
+    border: none;
+}
+.menu{
+    width: 353px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 120px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000073;
+    font-size: 20px;
+    cursor: pointer
+}
+
+.footer{
+    width: 100vw;
+    height: 100vh;
+    height: 280px;
+    background-color: #3a556e;
+}
+
+.grid-8 > h2{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.grid-8{
+    font-size: 15px;
+    margin-top: -17px;
+    text-align: left;
+    color: white;
+}
+
+.grid-8 > p{
+    text-transform: unset;
+    color: white;
+    font-size: 13px;
+}
+
+.grid-4{
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #020e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1 {
+    color: #F49F1C;
+    font-size: 30px;
+}
+
+.b-back{
+    width: 30%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase ;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #3a556e;
+    background: #F49F1C;
+    cursor: pointer;
+    box-shadow: 0px 10px 40 px -12px #9e6d25;
+    display: left;
+
+    
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #3a556e;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000073;
+    margin-right: 100px;
+}
+.card-login > h1 {
+    color: #F49F1C;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #546c88;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000073;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase ;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #3a556e;
+    background: #F49F1C;
+    cursor: pointer;
+    box-shadow: 0px 10px 40 px -12px #9e6d25;
+}
+
+.ou{
+    justify-content: center;
+    color: #f0ffffde;
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    margin: 5px 0px;
+}
+
+.conta{
+    text-decoration: underline;
+    justify-content: center;
+    color: #f0ffffde;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    box-shadow: 0px 10px 40 px -12px #c9c9c9de;
+    padding: 8px;
+}
+
+.footer{
+    width: 100vw;
+    height: 100vh;
+    height: 280px;
+    background-color: #3a556e;
+}
+
+.grid-8 > h2{
+    font-size: 20px;
+    margin-top: -17px;
+    color: white;
+    text-transform: uppercase;
+}
+.grid-8{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+.grid-8 > p{
+    text-transform: unset;
+    color: white;
+    font-size: 13px;
+}
+
+.grid-4{
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+/*.cetec{
+    width: 50%;
+    
+}*/

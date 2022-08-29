@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #020e46;
+}
+.titulo > h1{
+    color: #F49F1C;
+    text-align: center;
+}
+.painel{
+    background-color: #3a556e;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000073;
+    margin-bottom: 50px;
+    
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #546c88;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000073;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.botao{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase ;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #3a556e;
+    background: #F49F1C;
+    cursor: pointer;
+    box-shadow: 0px 10px 40 px -12px #9e6d25;
+}
